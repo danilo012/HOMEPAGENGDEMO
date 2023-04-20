@@ -11,7 +11,7 @@ function createWindow () {
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')
     },
-    icon: __dirname + '/assets/images/icon/icon.ico',
+    icon: __dirname + 'icon.ico',
   });
   mainWindow.setMenuBarVisibility(false),
 
